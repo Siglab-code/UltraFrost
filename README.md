@@ -26,7 +26,7 @@ An example code (inversion.py) is given to show the estimation of properties of 
 $ python inversion.py
 ```
 
-The experimental transfer function data for permafrost samples can be found in the 'data' folder. To use a different dataset, users can change the file name accordingly in line 8 of inversion.py. 
+An example experimental transfer function data for permafrost samples can be found in the 'data' folder. To use a different dataset, users can change the file name accordingly in line 8 of inversion.py. 
 
 ```
 da = np.loadtxt('data/measurement5.csv') 
